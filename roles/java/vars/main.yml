@@ -1,0 +1,8 @@
+---
+
+java_pkgs:
+  oracle:
+    - oracle-java8-installer
+    - oracle-java8-set-default
+  openjdk:
+    - openjdk-8-jre-headless

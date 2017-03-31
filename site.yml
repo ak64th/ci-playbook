@@ -1,0 +1,6 @@
+- hosts: vultr01
+  remote_user: root
+  vars:
+    java_flavor: 'oracle'
+  roles:
+    - { role: elasticsearch }
