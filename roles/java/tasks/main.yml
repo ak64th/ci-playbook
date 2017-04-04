@@ -1,5 +1,5 @@
 ---
-- name: WebUpd8 apt repo,
+- name: WebUpd8 apt repo
   apt_repository:
     repo: 'ppa:webupd8team/java'
     update_cache: yes

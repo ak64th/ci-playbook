@@ -4,3 +4,4 @@
     java_flavor: 'oracle'
   roles:
     - { role: elasticsearch }
+    - { role: kibana }

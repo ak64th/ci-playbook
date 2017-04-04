@@ -1,0 +1,12 @@
+---
+- name: Install packages
+  apt: name=kibana state=latest
+  become: yes
+  when: ansible_os_family == 'Debian'
+- name: Enable and start service
+  service:
+    name: kibana
+    state: started
+    enabled: yes
+  become: yes
+  when: ansible_os_family == 'Debian'
